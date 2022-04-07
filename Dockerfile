@@ -41,7 +41,7 @@ RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 # Make Aliases by me
-RUN echo 'alias hi="echo hellooo"' >> ~/.bashrc
+RUN echo 'alias hi="echo helloooo"' >> ~/.bashrc
 
 # Port
 ENV PORT=8080
